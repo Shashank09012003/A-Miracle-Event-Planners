@@ -68,7 +68,7 @@ Each service is presented with a visually rich layout, structured content, and m
 - PostCSS
 
 ---
-
+```
 ## 📁 Project Structure                                                                                                                                                                                                     
 ├── public/
 │   ├── favicon.ico
@@ -118,7 +118,7 @@ Each service is presented with a visually rich layout, structured content, and m
 ├── tsconfig.json
 ├── tsconfig.node.json
 └── vite.config.ts
-
+```
 
 
 ---
