@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { Play, Plus, X } from "lucide-react";
 import { useState } from "react";
-import heroImage from "@/assets/hero-wedding.jpg";
+import heroImage from "@/assets/Shaadi.jpg";
 
 const Hero = () => {
   const [isVideoOpen, setIsVideoOpen] = useState(false);
@@ -32,7 +32,7 @@ const Hero = () => {
                   <span className="text-gradient">effortlessly</span>
                 </h1>
                 <p className="text-lg md:text-xl text-muted-foreground max-w-xl">
-                  Shadi, Birthday, Festivals & more — Create unforgettable moments with our comprehensive event planning platform
+                  Shaadi, Birthday, Festivals & more — Create unforgettable moments with our comprehensive event planning platform
                 </p>
               </div>
 
@@ -87,11 +87,11 @@ const Hero = () => {
               transition={{ duration: 0.8, delay: 0.2 }}
               className="relative"
             >
-              <div className="relative rounded-3xl overflow-hidden shadow-2xl hover:shadow-3xl transition-shadow duration-500">
+              <div className="relative rounded-3xl overflow-hidden shadow-2xl hover:shadow-3xl transition-shadow duration-500 aspect-[4/3]">
                 <img
                   src={heroImage}
                   alt="Beautiful wedding ceremony with traditional decorations"
-                  className="w-full h-auto object-cover"
+                  className="w-full h-full object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent" />
                 
@@ -102,11 +102,11 @@ const Hero = () => {
                   transition={{ duration: 0.8, delay: 0.5 }}
                   className="absolute bottom-6 left-6 z-10"
                 >
-                  <img 
+                  {/* <img 
                     src="/LOGO.png" 
                     alt="A Miracle Event Planners" 
                     className="w-24 h-24 object-contain drop-shadow-2xl"
-                  />
+                  /> */}
                 </motion.div>
               </div>
               
