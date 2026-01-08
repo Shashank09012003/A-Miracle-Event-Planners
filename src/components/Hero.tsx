@@ -19,7 +19,7 @@ const Hero = () => {
       <section className="relative py-12 md:py-20 overflow-hidden">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
-            {/* Left Content */}
+            {/* Left Content - SEO Optimized */}
             <motion.div
               initial={{ opacity: 0, x: -50 }}
               animate={{ opacity: 1, x: 0 }}
@@ -27,12 +27,15 @@ const Hero = () => {
               className="space-y-8"
             >
               <div className="space-y-6">
+                {/* H1 - Main SEO Heading with Primary Keywords */}
                 <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight">
-                  Plan events{" "}
-                  <span className="text-gradient">effortlessly</span>
+                  Best Event Planner in{" "}
+                  <span className="text-gradient">Jabalpur</span>
                 </h1>
+                
+                {/* SEO-rich description with multiple keywords */}
                 <p className="text-lg md:text-xl text-muted-foreground max-w-xl">
-                  Shaadi, Birthday, Festivals & more — Create unforgettable moments with our comprehensive event planning platform
+                  Leading event management company in Jabalpur, Madhya Pradesh. Professional wedding planner, birthday party organizer, and corporate event management services. We specialize in Shaadi planning, birthday celebrations, festivals, and corporate events across Jabalpur, Indore, and MP.
                 </p>
               </div>
 
@@ -45,7 +48,7 @@ const Hero = () => {
                 >
                   <Link to="/book-event">
                     <Plus className="w-5 h-5 mr-2" />
-                    Create Event
+                    Book Event Now
                   </Link>
                 </Button>
                 <Button
@@ -90,7 +93,7 @@ const Hero = () => {
               <div className="relative rounded-3xl overflow-hidden shadow-2xl hover:shadow-3xl transition-shadow duration-500 aspect-[4/3]">
                 <img
                   src={heroImage}
-                  alt="Beautiful wedding ceremony with traditional decorations"
+                  alt="Best wedding planner in Jabalpur - Beautiful Indian wedding ceremony with traditional decorations by A Miracle Event Planners"
                   className="w-full h-full object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent" />
@@ -104,7 +107,7 @@ const Hero = () => {
                 >
                   {/* <img 
                     src="/LOGO.png" 
-                    alt="A Miracle Event Planners" 
+                    alt="A Miracle Event Planners - Event Management Company in Jabalpur" 
                     className="w-24 h-24 object-contain drop-shadow-2xl"
                   /> */}
                 </motion.div>
@@ -144,6 +147,7 @@ const Hero = () => {
             <button
               onClick={() => setIsVideoOpen(false)}
               className="absolute -top-16 right-0 text-white hover:text-gray-300 transition-colors"
+              aria-label="Close video"
             >
               <X className="w-8 h-8" />
             </button>
@@ -155,6 +159,7 @@ const Hero = () => {
                 controls
                 autoPlay
                 src="/introvideo.MP4"
+                aria-label="A Miracle Event Planners introduction video"
               >
                 Your browser does not support the video tag.
               </video>

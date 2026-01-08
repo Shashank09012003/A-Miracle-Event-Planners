@@ -5,26 +5,26 @@ const ProcessSection = () => {
   const steps = [
     {
       icon: Lightbulb,
-      title: "Plan",
-      description: "Choose your event type, set date & venue. Get customized checklists and timelines.",
+      title: "Plan Your Event",
+      description: "Choose your event type - wedding, birthday, corporate, or festival. Our event management company in Jabalpur provides customized checklists and timelines.",
       gradient: "gradient-wedding",
     },
     {
       icon: Mail,
-      title: "Invite",
-      description: "Send beautiful digital invitations via WhatsApp, email or SMS with RSVP tracking.",
+      title: "Send Invitations",
+      description: "Professional digital invitations via WhatsApp, email or SMS with RSVP tracking for all your guests.",
       gradient: "gradient-birthday",
     },
     {
       icon: TrendingUp,
-      title: "Track",
-      description: "Monitor RSVPs, manage budget, coordinate with vendors and track all progress.",
+      title: "Track Progress",
+      description: "Monitor RSVPs, manage budget, coordinate with vendors across Jabalpur and Madhya Pradesh, and track all event progress.",
       gradient: "gradient-festival",
     },
     {
       icon: Sparkles,
-      title: "Execute",
-      description: "Run your event seamlessly with timeline management and real-time coordination.",
+      title: "Execute Perfectly",
+      description: "Run your event seamlessly with expert timeline management and real-time coordination from our experienced team.",
       gradient: "gradient-corporate",
     },
   ];
@@ -39,11 +39,12 @@ const ProcessSection = () => {
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
+          {/* H2 with Keywords */}
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
-            Simple 4-Step Process
+            How Our Event Planning Process Works
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            From planning to execution, we've got you covered
+            Professional event organizer in Jabalpur - From planning to execution, we handle every detail of your marriage, birthday, or corporate event
           </p>
         </motion.div>
 

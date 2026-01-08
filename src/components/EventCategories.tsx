@@ -6,40 +6,39 @@ const EventCategories = () => {
   const categories = [
     {
       icon: Heart,
-      title: "Weddings",
-      description: "Complete Shadi planning with Sangeet, Mehndi, Halal workflows",
+      title: "Wedding Planning",
+      description: "Best wedding planner in Jabalpur. Complete Shaadi planning with Sangeet, Mehndi, and traditional ceremonies",
       gradient: "gradient-wedding",
       iconEmoji: "💍",
     },
     {
       icon: Cake,
-      title: "Birthdays & Anniversary",
-      description: "Memorable birthday & anniversary celebrations ",
+      title: "Birthday & Anniversary",
+      description: "Professional birthday party planner and organizer. Memorable celebration services for all ages",
       gradient: "gradient-birthday",
       iconEmoji: "🎂💝",
     },
     {
       icon: Sparkles,
-      title: "Festivals",
-      description: "Traditional Puja and festival celebrations with cultural elements",
+      title: "Festival Events",
+      description: "Traditional Puja and cultural festival event management services with authentic Indian elements",
       gradient: "gradient-festival",
       iconEmoji: "🪔",
     },
     {
       icon: Building2,
-      title: "Corporate",
-      description: "Professional events, conferences and corporate celebrations",
+      title: "Corporate Events",
+      description: "Corporate event planner in Jabalpur. Professional conferences, seminars, and business celebrations",
       gradient: "gradient-corporate",
       iconEmoji: "🏢",
     },
     {
       icon: Building2,
-      title: "Football Events",
-      description: "Professional football tournaments with team management and official hosting",
+      title: "Sports Events",
+      description: "Professional football tournaments and sports event management with team coordination",
       gradient: "gradient-football",
       iconEmoji: "⚽👟",
     },
-    
   ];
 
   return (
@@ -52,11 +51,12 @@ const EventCategories = () => {
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
+          {/* H2 with Keywords */}
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
-            Perfect for Every Celebration
+            Event Management Services in Jabalpur, MP
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Specialized templates and workflows for different event types
+            Leading event organisers in Jabalpur offering wedding planning, birthday parties, corporate events, and festival celebrations across Madhya Pradesh
           </p>
         </motion.div>
 
