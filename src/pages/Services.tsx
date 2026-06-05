@@ -14,7 +14,7 @@ const Services = () => {
       description: "Complete Shadi planning with traditional ceremonies",
       features: [
         "Sangeet & Mehndi planning",
-        "Halal ceremony workflows",
+        "Haldi ceremony workflows",
         "Vendor coordination",
         "Guest management",
         "Budget tracking",
